@@ -25,7 +25,7 @@ Final Functional Conclusion
 📎1. PROJECT DIRECTORY
 Working directory:
 
-~/BabySoC_Simulation/assesments/25eg504h06
+~/BabySoC_Simulation/assesments/25eg504h50
 Files observed in the project:
 
 25eg504h50/
