@@ -162,32 +162,8 @@ GLS Waveform Verification
 RTL vs GLS Comparison
    ↓
 Final Functional Conclusion
-1. Project Directory
-Working directory:
 
-~/BabySoC_Simulation/assesments/25eg504h06
-Files observed in the project:
 
-25eg504h06/
-├── rtl/
-├── tb/
-│   └── tb.v
-├── synthesized.v
-├── pre_synth_sim.out
-└── dump.vcd
-During GLS debugging, a corrected local SKY130 model was also created:
-
-sky130_fd_sc_hd_gls.v
-2. RTL Design
-The design is a Verilog finite-state-machine based sequence detector.
-
-Main module:
-
-module sequence_detector(clk, reset, din, detected);
-Important signals:
-
-Signal	Description
-clk	Clock input
 reset	Reset input
 din	Serial data input
 detected	Sequence detection output
@@ -195,11 +171,6 @@ state[2:0]	Current FSM state
 next_state[2:0]	Next FSM state
 The RTL describes the intended behavior of the sequence detector. The FSM state changes according to the input din, and detected indicates a successful sequence detection.
 
-Screenshot 1 – RTL Code
-Add:
-
-images/01_rtl_code.png
-rtl code
 3. Testbench
 The testbench is located at:
 
@@ -301,17 +272,6 @@ The generated netlist is:
 The synthesized module was checked using:
     grep -n "module sequence_detector"      synthesized.v
 The result obtained was:
-
-6: MODULE sequence_detector(clk, reset, din, detected);
-This confirmed that the expected sequence_detector module exists in the synthesized netlist.
-    RTL vs synthesized representation
-RTL:
-
-Describes what the circuit should do using behavioral/FSM constructs.
-
-Synthesized netlist:
-
-Represents the implemented logic using gate/standard-cell structures.
 
 📎7. SYNTHESIZED GATE-LEVEL NETLIST 
 THE FILE:
