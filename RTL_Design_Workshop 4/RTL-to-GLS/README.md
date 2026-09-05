@@ -129,9 +129,7 @@ Code
 Issues
 Pull requests
 VSD-RTL-Design-and-Synthesis/A -RTL-to-GLS-Sequence-Detector
-/README_25eg504h06 (1).md
-venugogu6109-spec
-venugogu6109-spec
+/README_25eg504h50 (1).md
 1 hour ago
 830 lines (580 loc) · 15.2 KB
 
@@ -142,7 +140,7 @@ Code
 Blame
 RTL to Gate-Level Synthesis and GLS – Sequence Detector
 Project Overview
-This repository documents the complete work completed for assessment 25eg504h06, from the initial RTL design through functional simulation, synthesis, post-synthesis/Gate-Level Simulation (GLS), waveform analysis, and RTL-vs-GLS verification.
+This repository documents the complete work completed for assessment 25eg504h50, from the initial RTL design through functional simulation, synthesis, post-synthesis/Gate-Level Simulation (GLS), waveform analysis, and RTL-vs-GLS verification.
 
 Complete Flow
 RTL Design
