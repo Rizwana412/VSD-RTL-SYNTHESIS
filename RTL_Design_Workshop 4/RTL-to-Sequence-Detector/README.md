@@ -554,7 +554,7 @@ This project demonstrates the complete transition from a behavioral RTL design t
 The key verification principle is:
 
 For the same testbench stimulus, the synthesized implementation should preserve the intended functional behavior of the RTL.
-
+ 
 After the PRE vs POST comparison is verified, the synthesized gate-level netlist can be taken forward into the Physical Design flow.
 
 
