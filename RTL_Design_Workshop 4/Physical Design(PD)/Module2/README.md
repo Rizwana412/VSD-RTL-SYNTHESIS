@@ -7,6 +7,8 @@ Module 2 covers physical floorplanning concepts, core utilization and aspect rat
 
 #### 1. SKY130_D2_SK1 – Chip Floorplanning Considerations
 Floorplanning is a key step in physical design where the overall structure and layout of the chip are defined before moving to detailed placement and routing.
+<img width="891" height="912" alt="floorplan" src="https://github.com/user-attachments/assets/0cb84371-6bf5-424d-9e09-c7bcfbdeaacf" />
+
 
 This stage decides die size, core area, I/O placement and power planning.
 #### 2. SKY_L1 – Utilization Factor and Aspect Ratio
