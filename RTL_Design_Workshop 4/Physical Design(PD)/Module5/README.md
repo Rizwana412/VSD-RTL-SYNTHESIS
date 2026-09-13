@@ -35,11 +35,4 @@ The practicals cover maze routing concepts, DRC-clean vs DRC-violation cases, PD
 *Tools Used*
 Sky130 PDK, OpenROAD, TritonRoute, OpenSTA
 
- #Key Takeaways:
-
-- Maze routing forms the algorithmic foundation for computing optimal routing paths.
-- DRC validation ensures the physical layout complies with foundry-specified design rules.
-- The PDN establishes a low-resistance path from power straps to standard-cell power rails.
-- TritonRoute enables congestion-aware global and detailed routing with support for route guides and connectivity-driven optimization.
-- Multi-layer routing leverages both intra-layer and inter-layer connections to complete signal nets.
-- Post-route sign-off generates final routed DEF, guides, and reports confirming DRC and connectivity closure.
+ 
