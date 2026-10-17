@@ -202,6 +202,17 @@ The major concepts covered so far include:
 AUTHOR 
 Rizwana B.Tech – Electronics and Communication Engineering Anurag University
 
-VSDIAT Chip Design Program – Modules 1 to 5 Completed ✅
+VSDIAT Chip Design Program – Modules 1 to 5 Completed ✅ 
+
+
+DEMO:
+
+## RTL Workshop — Video Demonstration
+
+### ▶️ Watch the Presentation
+https://drive.google.com/file/d/1-xtQL_F2W_10ASo6LOmYKQpXo3GAyw2K/view?usp=drivesdk
+
+This video demonstrates my complete RTL Design and Synthesis Workshop
+
 
 
